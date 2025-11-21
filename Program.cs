@@ -54,7 +54,7 @@ namespace Listak
             }
 
 
-            //4, Hozzon létre egy új listát ujSzamsor néven, ami a meglévő két lista számait növekedve tartalmazza! Nem használhat beépített rendezést! A feladat rendezés nélkül is megoldható a listák összefésülésével.
+            //4
             List<int> ujSzamsor = new List<int>();
 
             while (0 < szamsorA.Count || 0 < szamsorB.Count)
@@ -145,4 +145,5 @@ namespace Listak
 
         }
     }
+
 }
